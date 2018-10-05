@@ -1,0 +1,61 @@
+
+//Font import: Montserrat and News Cycle
+@import url('https://fonts.googleapis.com/css?family=Montserrat|News+Cycle');
+
+$Montserrat: 'Montserrat', sans-serif;
+$NewsCycle: 'News Cycle', sans-serif;
+
+$font-family-base: $Montserrat;
+$headings-font-family: $NewsCycle;
+
+
+//Color Variable Resets:
+
+$lightSage: #B3BFB8;
+$deepestNavy: #272635;
+$lapis: #336699;
+$paleYellow: #EAEFBD;
+$silver: #E8E9F3;
+
+
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+
+$primary:       $lapis;
+$secondary:     $silver;
+$success:       $lightSage;
+//$info:          $cyan !default;
+$warning:       $paleYellow;
+//$danger:        $red !default;
+//$light:         $gray-100 !default;
+$dark:          $deepestNavy;
+
+body {
+
+  background-color: $secondary;
+
+}
+
+.jumbotron{
+
+  font-weight: bold;
+
+}
+
+
+
+
+
+
+// Bootstrap and its default variables
+@import "../../node_modules/bootstrap/scss/bootstrap";
